@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+hr{
+    background: #382424;
+    margin: 0;
+}
+footer{
+    margin-right: 25px;
+    display: block;
+    text-align: right;
+    color: #fff;
+    -webkit-text-stroke: 0.5px #E1D8D8;
+    font-weight: bold;
+}
+#main-logo{
+    width: 45%;
+    height: auto;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="正月休みで暇な人、謎解きでも解いて暇つしませんか？">
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RXVTGESGVX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-RXVTGESGVX');
+  </script>
+  <script src="js/jquery-2.2.0.min.js"></script>
+  <script src="js/aes.js"></script>
+  <script src="js/pbkdf2.js"></script>
+  <script type="text/javascript" src="./js/question.js?ver=1.0.0"></script>
+  <style> @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap'); </style>
+  <link rel="stylesheet" type="text/css" href="./style/style.css?ver=1.0.0">
+  <link rel="stylesheet" type="text/css" href="./style/question.css?ver=1.0.0">
+  <link rel="icon" href="./img/main-logo.png">
+  <title>年賀状風謎解き2023 白帯</title>
+</head>
+<body>
+  <div class="content">
+    <h1 class="title">謎解き2023 白帯</h1>
+    <div class="question">
+      <img class="question-img" src="./img/4713879.png" alt="問題文の読み込みに失敗しました。">
+    </div>
+    <form  onsubmit="return false;">
+      <input type="text" name="password" id="password" placeholder=" 秘密の合言葉を入力"><br>
+      <p id="alert">※おっと秘密の合言葉が違います</p>
+      <p id="submit">開けゴマ</p>
+  </div>
+  <div id="modal-overlay"></div>
+  <div id="modal-content">
+    <p id="modal-content-text"></p>
+    <p id="modal-content-text-crypto">4f61ef60fc888633fd8c6639ea75f620,ffd8b25b066f29bdb64265b5cdb033a0,aGN8XLATHOeBJKdzYAx7uXRJ3Hhw+Z+etWcsE0mbLsoOSNkHfeuhmwqaHCRlxIicBN369QcqYq+P69RokU56hPDJoemoijk+KEVfzO4wClIAICfjQyW8FQCQwryxra/bYePqmRD4h7DQLQT8Q5SUyQGilNylDWPWvU7/60A1NS9w/tDQBQ2myx02/1BUjzqLh0+QAcZsenNbYP1zAZ5RPSInBo6JckhgnpEaOthUQA/3QaKtaeN+xSK/ezZNRlt16K/b2me7BCh3flyGK386G6Df/9jJIfptHi0yyDcWHgIGM5a3GsCfXdMcRH3amP5oy79W+hiJSTNMi9Mou+nWPUyNVXt3wSXCDLzKp2xSbhMlTDGJ5/j+zectWX1doUP8jg5kSY7RrG+k8RfVLjtqaA==</p>
+  </div>
+  <footer>
+    <p>create by lot-uni</p>
+  </footer>
+  </body>
+</html>

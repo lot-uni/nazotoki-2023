@@ -1,0 +1,92 @@
+body{
+    background-image: url(../img/bg-img.png);
+}
+.title{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: clamp(50px, 5vw, 70px);
+    text-align: center;
+    color: #fff;
+    -webkit-text-stroke: 1.5px #E1D8D8;
+    font-weight: bold;
+}
+.question{
+    text-align: center;
+}
+.question-img{
+    height: 60vh;
+}
+form{
+    width: 260px;
+    margin: 5% auto 0;
+}
+#password {
+    width: 260px;
+    height: 40px;
+    font-size: 22px;
+    border-radius: 15px;
+    display: block;
+    border:2px solid #382424;
+    background: #D9D9D9;
+}
+#alert{
+    color: red;
+    display: none;
+}
+.break_banner{
+    display: none;
+}
+#submit{
+    width: 100px;
+    height: 40px;
+    padding: 10px 20px 0;
+    font-size: 22px;
+    border-radius: 30px;
+    border:2px solid #E1D8D8;
+    background: #382424;
+    color: #fff;
+}
+#modal-content{
+    width: 80%;
+    height: 80vh;
+    margin: 0;
+    border: 2px solid #aaa;
+    background: #fff;
+    position: fixed;
+    display: none;
+    z-index: 2;
+    inset: 0;
+    margin: auto;
+}
+#modal-content-text{
+    font-size: 20px;
+    overflow: scroll;
+    height: 75vh;
+    text-align: center;
+    padding: 10px;
+}
+#modal-content-text a{
+    color: darkgoldenrod;
+}
+.modal-p{
+	margin-top:1em;
+}
+
+.modal-p:first-child{
+	margin-top:0;
+}
+
+#modal-overlay{
+    z-index: 1;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    background-color: rgba( 0,0,0, 0.75 );
+}
+
+#modal-content-text-crypto{
+    display: none;
+}
+
